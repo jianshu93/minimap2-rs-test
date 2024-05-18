@@ -1,0 +1,10 @@
+/Users/jianshuzhao/Github/minimap2-rs-test/target/debug/deps/libbuffer_redux-8e8bee7a8bb5e2d1.rmeta: /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/lib.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/mod.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/std_buf.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/policy.rs
+
+/Users/jianshuzhao/Github/minimap2-rs-test/target/debug/deps/libbuffer_redux-8e8bee7a8bb5e2d1.rlib: /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/lib.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/mod.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/std_buf.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/policy.rs
+
+/Users/jianshuzhao/Github/minimap2-rs-test/target/debug/deps/buffer_redux-8e8bee7a8bb5e2d1.d: /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/lib.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/mod.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/std_buf.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/policy.rs
+
+/Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/lib.rs:
+/Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/mod.rs:
+/Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/std_buf.rs:
+/Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/policy.rs:

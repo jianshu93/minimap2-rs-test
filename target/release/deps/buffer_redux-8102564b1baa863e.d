@@ -1,0 +1,10 @@
+/Users/jianshuzhao/Github/minimap2-rs-test/target/release/deps/libbuffer_redux-8102564b1baa863e.rmeta: /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/lib.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/mod.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/std_buf.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/policy.rs
+
+/Users/jianshuzhao/Github/minimap2-rs-test/target/release/deps/libbuffer_redux-8102564b1baa863e.rlib: /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/lib.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/mod.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/std_buf.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/policy.rs
+
+/Users/jianshuzhao/Github/minimap2-rs-test/target/release/deps/buffer_redux-8102564b1baa863e.d: /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/lib.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/mod.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/std_buf.rs /Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/policy.rs
+
+/Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/lib.rs:
+/Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/mod.rs:
+/Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/buffer/std_buf.rs:
+/Users/jianshuzhao/.cargo/registry/src/index.crates.io-6f17d22bba15001f/buffer-redux-1.0.1/src/policy.rs:
