@@ -13,3 +13,4 @@ path = "src/main.rs"
 minimap2 = "0.1.16+minimap2.2.26"
 needletail = {version = "0.5"}
 rayon = "1.5"
+num_cpus = "1.0"

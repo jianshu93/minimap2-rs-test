@@ -1,15 +1,16 @@
 use minimap2::Aligner;
 use needletail::{parse_fastx_file, Sequence, FastxReader};
 use std::path::Path;
+use num_cpus;
 use rayon::prelude::*;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let ref_path = "/Users/jianshuzhao/Github/minimap2-rs-test/test_data/SAR11_silva_16S.fasta";
-
+    let num_threads = num_cpus::get();
     let aligner = Aligner::builder()
     // we need overlap alignment for compute alignment ratio and identity
     .ava_pb()
-    .with_index_threads(8)
+    .with_index_threads(num_threads)
     .with_cigar()
     .with_index(ref_path, None)
     .expect("Unable to build index");
