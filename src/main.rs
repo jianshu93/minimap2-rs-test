@@ -1,8 +1,6 @@
 use minimap2::Aligner;
-use needletail::{parse_fastx_file, Sequence, FastxReader};
-use std::path::Path;
+use needletail::{parse_fastx_file};
 use num_cpus;
-use rayon::prelude::*;
 use crossbeam_channel::unbounded;
 use crossbeam_channel::Sender;
 use crossbeam_channel::Receiver;
