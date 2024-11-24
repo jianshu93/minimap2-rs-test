@@ -7,13 +7,12 @@ use crossbeam_channel::Receiver;
 use std::thread;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let ref_path = "/Users/jianshuzhao/Github/minimap2-rs-test/test_data/SAR11_silva_16S.fasta";
+    let ref_path = "/Users/jiz322/Documents/GitHub/minimap2-rs-test/test_data/SAR11_silva_16S.fasta";
     let num_threads = num_cpus::get();
     let aligner = Aligner::builder()
     // we need overlap alignment for compute alignment ratio and identity. Query alignment ratio may be larger than 1 (only a little bit)
-    .ava_pb()
+    .ava_ont()
     .with_index_threads(num_threads)
-    .with_cigar()
     .with_index(ref_path, None)
     .expect("Unable to build index");
 
@@ -25,7 +24,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("{:?}", alignment);
 
     // Testing map with parallelization from files
-    let query_path = "/Users/jianshuzhao/Github/minimap2-rs-test/test_data/test_16S_SAR11.fa";
+    let query_path = "/Users/jiz322/Documents/GitHub/minimap2-rs-test/test_data/test_16S_SAR11.fa";
     let (sender, receiver): (Sender<Vec<u8>>, Receiver<Vec<u8>>) = unbounded();
 
     // Producer thread: reads sequences and sends them to the channel
@@ -40,11 +39,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Consumer threads: receive sequences and perform alignment
     let consumers: Vec<_> = (0..num_threads).map(|_| {
         let receiver = receiver.clone();
-        let aligner = aligner.clone(); // Clone aligner for each thread if possible, or recreate if needed
+        let mut aligner = aligner.clone(); // Make aligner mutable
         thread::spawn(move || {
-            receiver.iter().filter_map(|seq: Vec<u8>| { // Modify type here
+            let results = receiver.iter().filter_map(|seq: Vec<u8>| {
                 aligner.map(&seq, false, false, None, None).ok()
-            }).collect::<Vec<_>>()
+            }).collect::<Vec<_>>();
+    
+            // Set aligner.idx to None before the thread exits
+            aligner.idx = None;
+            results
         })
     }).collect();
 
